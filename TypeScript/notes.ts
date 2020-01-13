@@ -5,4 +5,7 @@
 const message = 'I am not a message...'
 console.log(message)
 
-export {}
+const getter=()=>{
+    console.log('Success!')
+}
+export {getter}

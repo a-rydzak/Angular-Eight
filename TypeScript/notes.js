@@ -4,3 +4,7 @@
 exports.__esModule = true;
 var message = 'I am not a message...';
 console.log(message);
+var getter = function () {
+    console.log('Success!');
+};
+exports.getter = getter;
